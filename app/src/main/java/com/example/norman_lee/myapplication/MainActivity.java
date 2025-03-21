@@ -45,9 +45,7 @@ public class MainActivity extends AppCompatActivity {
         //TODO 3.13 Get the intent and retrieve the exchange rate passed to it
         Intent intent = getIntent();
         // The default value from TODO2.2 is now set here
-        // exchangeRateStr can be either the saved sharedpref value or default value
         exchangeRate = intent.getDoubleExtra(SubActivity.INTENT_EXCH_RATE, Double.parseDouble(exchangeRateStr));
-
 
         //TODO 2.1 Use findViewById to get references to the widgets in the layout
         buttonConvert = findViewById(R.id.buttonConvert);

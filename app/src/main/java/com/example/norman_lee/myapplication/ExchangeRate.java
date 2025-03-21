@@ -21,6 +21,4 @@ public class ExchangeRate {
 
         return valB.divide(valA, 2, RoundingMode.HALF_UP).doubleValue();
     }
-
-
 }
